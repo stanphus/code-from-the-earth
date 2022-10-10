@@ -1,0 +1,19 @@
+//分段函数
+#include <stdio.h>
+int main()
+
+{
+	int a,y;
+	scanf("%d",&a);
+	
+	printf("Please input x:3\n");
+	if(a==0)
+		y=511;
+	else if(a>0)
+		y=3*a-8;
+	else 
+		y=-5*a+21;
+	printf("f(%d)=%d",a,y);
+	return 0;
+}
+
